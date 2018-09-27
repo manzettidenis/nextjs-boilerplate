@@ -15,7 +15,6 @@ export default class MyDocument extends Document {
         <Head>
           <title>Nextjs + Express + Graphql Boilerplate</title>
           {this.props.styleTags}
-          
         </Head>
         <body>
           <Main />

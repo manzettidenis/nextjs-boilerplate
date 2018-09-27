@@ -6,7 +6,7 @@ const linkStyle = {
   marginRight: 15
 }
 
-const Nav = styled.nav`
+const Footer = styled.footer`
   background: #f1f1f1;
   width: 100%;
   height: 60px;
@@ -14,7 +14,7 @@ const Nav = styled.nav`
 `
 
 export default () => (
-  <Nav>
+  <Footer>
     <Link href='/'>
       <a style={linkStyle}>Home</a>
     </Link>
@@ -24,5 +24,5 @@ export default () => (
     <Link href='/blog'>
       <a style={linkStyle}>Blog</a>
     </Link>
-  </Nav>
+  </Footer>
 )
